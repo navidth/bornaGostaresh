@@ -1,0 +1,21 @@
+.dispaly {
+  max-width: inherit;
+  height: 1000px;
+  min-height: 100px;
+}
+.scrollable-div {
+  width: 250px;
+  height: 300px;
+  overflow-y: scroll;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.scrollable-div p {
+  margin: 0;
+}
+@media screen and (max-width: 550px) {
+  .dispaly {
+    height: 550px;
+  }
+}
