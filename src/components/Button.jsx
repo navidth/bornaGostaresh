@@ -20,7 +20,7 @@ function Buttons() {
 
   return (
     <>
-      <div className="d-flex mx-2 py-3">
+      <div className="d-flex flex-wrap g-4 py-3 justify-content-center align-content-center" style={{gap:"12px"}}>
         <button
           type="button"
           onClick={() => {

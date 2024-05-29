@@ -10,7 +10,7 @@ function Display() {
 
   return (
     <div className="dispaly ">
-      <div className="d-flex flex-wrap mx-3 my-2 position-relative">
+      <div className="d-flex flex-wrap flex-sm-row flex-column align-items-center mx-3 my-2">
         {url.map((item, index) => {
           if (item.type === "image") {
             return (

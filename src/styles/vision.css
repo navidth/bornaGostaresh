@@ -1,7 +1,15 @@
-.dispaly {
+.btn {
+  width: 155px !important;
+}
+.dvision {
   max-width: inherit;
-  height: 1000px;
-  min-height: 100px;
+  height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.dispaly{
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 .scrollable-div {
   width: 250px;
@@ -16,6 +24,6 @@
 }
 @media screen and (max-width: 550px) {
   .dispaly {
-    height: 550px;
+    height: 100vh;
   }
 }
